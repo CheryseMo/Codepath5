@@ -1,0 +1,91 @@
+/* Global Styling */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f8f9fa;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Card Styling */
+.dog-card {
+  background: white;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  text-align: center;
+}
+
+.dog-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Clickable Attributes */
+.clickable {
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.clickable:hover {
+  color: #ff0000;
+}
+
+/* Ban List & History */
+.section {
+  max-width: 600px;
+  margin: 20px auto;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ban-list ul, .history-list {
+  list-style: none;
+  padding: 0;
+}
+
+.ban-list li {
+  color: red;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.history-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.history-item img {
+  width: 120px;
+  height: 120px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+}
